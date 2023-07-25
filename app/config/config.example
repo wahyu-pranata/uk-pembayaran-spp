@@ -1,0 +1,9 @@
+<?php
+
+// Variabel global
+
+define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/<nama_folder>/public');
+define('DB_HOST', 'localhost');
+define('DB_NAME', '<nama_db_kamu>');
+define('DB_USER', '<nama_username_db_kamu>');
+define('DB_PASS', '<password_db_kamu>');
