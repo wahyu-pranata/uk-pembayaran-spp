@@ -1,7 +1,5 @@
 <?php
 
-use Core\Flasher;
-
 /**
  * Mengembalikan url dari path yang diberikan
  */

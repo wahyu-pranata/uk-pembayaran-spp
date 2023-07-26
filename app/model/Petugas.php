@@ -3,6 +3,7 @@
 class Petugas
 {
     protected $db;
+    private $table = "petugas";
     public function __construct()
     {
         $this->db = new Database();

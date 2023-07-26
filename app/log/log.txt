@@ -1,226 +1,41 @@
-[18-May-2023 13:18:40 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 29
-[18-May-2023 13:18:40 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:18:40 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:18:40 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:18:40 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:18:40 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:18:40 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:18:40 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 44
-[18-May-2023 13:18:40 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:18:40 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:18:40 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:18:40 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:18:40 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:18:40 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:18:40 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 58
-[18-May-2023 13:18:40 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:18:40 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:18:40 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:18:40 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:18:40 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:18:40 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:18:40 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 66
-[18-May-2023 13:18:40 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:18:40 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:18:40 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:18:40 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:18:40 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:18:40 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:18:40 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 120
-[18-May-2023 13:18:40 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:18:40 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:18:40 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:18:40 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:18:40 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:18:40 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:18:40 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\home\index.view.php on line 3
-[18-May-2023 13:18:40 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:18:40 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:18:40 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:18:40 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:18:40 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:18:40 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:25 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 29
-[18-May-2023 13:19:25 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:25 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:25 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:25 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:25 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:25 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:25 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 44
-[18-May-2023 13:19:25 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:25 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:25 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:25 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:25 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:25 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:25 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 58
-[18-May-2023 13:19:25 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:25 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:25 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:25 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:25 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:25 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:25 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 66
-[18-May-2023 13:19:25 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:25 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:25 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:25 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:25 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:25 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:25 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 120
-[18-May-2023 13:19:25 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:25 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:25 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:25 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:25 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:25 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:25 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\home\index.view.php on line 3
-[18-May-2023 13:19:25 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:25 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:25 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:25 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:25 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:25 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:26 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 29
-[18-May-2023 13:19:26 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:26 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:26 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:26 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:26 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:26 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:26 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 44
-[18-May-2023 13:19:26 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:26 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:26 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:26 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:26 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:26 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:26 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 58
-[18-May-2023 13:19:26 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:26 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:26 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:26 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:26 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:26 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:26 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 66
-[18-May-2023 13:19:26 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:26 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:26 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:26 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:26 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:26 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:26 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 120
-[18-May-2023 13:19:26 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:26 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:26 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:26 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:26 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:26 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:19:26 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\home\index.view.php on line 3
-[18-May-2023 13:19:26 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:19:26 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:19:26 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:19:26 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:19:26 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:19:26 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:20:54 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 29
-[18-May-2023 13:20:54 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:20:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:20:54 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:20:54 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:20:54 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:20:54 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:20:54 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 44
-[18-May-2023 13:20:54 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:20:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:20:54 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:20:54 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:20:54 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:20:54 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:20:54 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 58
-[18-May-2023 13:20:54 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:20:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:20:54 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:20:54 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:20:54 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:20:54 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:20:54 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 66
-[18-May-2023 13:20:54 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:20:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:20:54 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:20:54 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:20:54 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:20:54 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:20:54 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\template\dashboard-header.view.php on line 120
-[18-May-2023 13:20:54 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:20:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:20:54 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:20:54 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:20:54 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:20:54 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:20:54 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\pembayaran-spp\app\views\home\index.view.php on line 3
-[18-May-2023 13:20:54 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:20:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:20:54 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:20:54 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:20:54 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['jumlah_petugas' => 0], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:22
-[18-May-2023 13:20:54 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:21:24 Asia/Makassar] PHP Warning:  Undefined array key "siswa" in C:\laragon\www\pembayaran-spp\app\views\dashboard\transaction-index.view.php on line 30
-[18-May-2023 13:21:24 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:21:24 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:21:24 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:21:24 Asia/Makassar] PHP   3. Transaction->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:21:24 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'dashboard/transaction-index', 2 => 'template/dashboard-footer'], $data = ['title' => 'List Transaksi', 'history' => []]) C:\laragon\www\pembayaran-spp\app\controller\Transaction.php:11
-[18-May-2023 13:21:24 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[18-May-2023 13:21:24 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\pembayaran-spp\app\views\dashboard\transaction-index.view.php on line 30
-[18-May-2023 13:21:24 Asia/Makassar] PHP Stack trace:
-[18-May-2023 13:21:24 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[18-May-2023 13:21:24 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[18-May-2023 13:21:24 Asia/Makassar] PHP   3. Transaction->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[18-May-2023 13:21:24 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'dashboard/transaction-index', 2 => 'template/dashboard-footer'], $data = ['title' => 'List Transaksi', 'history' => []]) C:\laragon\www\pembayaran-spp\app\controller\Transaction.php:11
-[18-May-2023 13:21:24 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP Warning:  Undefined array key "siswa" in C:\laragon\www\pembayaran-spp\app\views\dashboard\transaction-index.view.php on line 30
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP Stack trace:
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   3. Transaction->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'dashboard/transaction-index', 2 => 'template/dashboard-footer'], $data = ['title' => 'List Transaksi', 'history' => []]) C:\laragon\www\pembayaran-spp\app\controller\Transaction.php:11
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\pembayaran-spp\app\views\dashboard\transaction-index.view.php on line 30
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP Stack trace:
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:4
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   3. Transaction->index() C:\laragon\www\pembayaran-spp\app\core\App.php:26
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'dashboard/transaction-index', 2 => 'template/dashboard-footer'], $data = ['title' => 'List Transaksi', 'history' => []]) C:\laragon\www\pembayaran-spp\app\controller\Transaction.php:11
-[25-Jul-2023 21:44:23 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:7
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Warning:  Constant BASE_URL already defined in C:\laragon\www\pembayaran-spp\app\config\config.php on line 3
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Stack trace:
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   2. require_once() C:\laragon\www\pembayaran-spp\public\index.php:3
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   3. require_once() C:\laragon\www\pembayaran-spp\app\init.php:19
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   4. define($constant_name = 'BASE_URL', $value = 'http://localhost:8081/pembayaran-spp/public') C:\laragon\www\pembayaran-spp\app\config\config.php:3
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Warning:  Constant DB_HOST already defined in C:\laragon\www\pembayaran-spp\app\config\config.php on line 4
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Stack trace:
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   2. require_once() C:\laragon\www\pembayaran-spp\public\index.php:3
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   3. require_once() C:\laragon\www\pembayaran-spp\app\init.php:19
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   4. define($constant_name = 'DB_HOST', $value = 'localhost') C:\laragon\www\pembayaran-spp\app\config\config.php:4
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Warning:  Constant DB_NAME already defined in C:\laragon\www\pembayaran-spp\app\config\config.php on line 5
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Stack trace:
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   2. require_once() C:\laragon\www\pembayaran-spp\public\index.php:3
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   3. require_once() C:\laragon\www\pembayaran-spp\app\init.php:19
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   4. define($constant_name = 'DB_NAME', $value = 'pembayaran_spp') C:\laragon\www\pembayaran-spp\app\config\config.php:5
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Warning:  Constant DB_USER already defined in C:\laragon\www\pembayaran-spp\app\config\config.php on line 6
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Stack trace:
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   2. require_once() C:\laragon\www\pembayaran-spp\public\index.php:3
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   3. require_once() C:\laragon\www\pembayaran-spp\app\init.php:19
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   4. define($constant_name = 'DB_USER', $value = 'root') C:\laragon\www\pembayaran-spp\app\config\config.php:6
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Warning:  Constant DB_PASS already defined in C:\laragon\www\pembayaran-spp\app\config\config.php on line 7
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP Stack trace:
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   2. require_once() C:\laragon\www\pembayaran-spp\public\index.php:3
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   3. require_once() C:\laragon\www\pembayaran-spp\app\init.php:19
-[25-Jul-2023 21:50:54 Asia/Makassar] PHP   4. define($constant_name = 'DB_PASS', $value = '') C:\laragon\www\pembayaran-spp\app\config\config.php:7
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP Warning:  Undefined array key "siswa" in C:\laragon\www\pembayaran-spp\app\views\dashboard\transaction-index.view.php on line 30
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP Stack trace:
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:7
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   3. Transaction->index() C:\laragon\www\pembayaran-spp\app\core\App.php:52
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'dashboard/transaction-index', 2 => 'template/dashboard-footer'], $data = ['title' => 'List Transaksi', 'history' => []]) C:\laragon\www\pembayaran-spp\app\controller\Transaction.php:11
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:15
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\pembayaran-spp\app\views\dashboard\transaction-index.view.php on line 30
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP Stack trace:
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:7
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   3. Transaction->index() C:\laragon\www\pembayaran-spp\app\core\App.php:52
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'dashboard/transaction-index', 2 => 'template/dashboard-footer'], $data = ['title' => 'List Transaksi', 'history' => []]) C:\laragon\www\pembayaran-spp\app\controller\Transaction.php:11
+[26-Jul-2023 22:24:51 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:15
+[26-Jul-2023 22:24:56 Asia/Makassar] PHP Fatal error:  Uncaught Error: Class "Core\Flasher" not found in C:\laragon\www\pembayaran-spp\app\helper\functions.php:34
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\controller\Transaction.php(50): back(Array)
+#1 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Transaction->search()
+#2 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\helper\functions.php on line 34
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP Warning:  Undefined array key "siswa" in C:\laragon\www\pembayaran-spp\app\views\dashboard\transaction-index.view.php on line 30
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP Stack trace:
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:7
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   3. Transaction->index() C:\laragon\www\pembayaran-spp\app\core\App.php:52
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'dashboard/transaction-index', 2 => 'template/dashboard-footer'], $data = ['title' => 'List Transaksi', 'history' => []]) C:\laragon\www\pembayaran-spp\app\controller\Transaction.php:11
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:15
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\pembayaran-spp\app\views\dashboard\transaction-index.view.php on line 30
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP Stack trace:
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:7
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   3. Transaction->index() C:\laragon\www\pembayaran-spp\app\core\App.php:52
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'dashboard/transaction-index', 2 => 'template/dashboard-footer'], $data = ['title' => 'List Transaksi', 'history' => []]) C:\laragon\www\pembayaran-spp\app\controller\Transaction.php:11
+[26-Jul-2023 22:25:29 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:15
+[26-Jul-2023 22:27:47 Asia/Makassar] PHP Warning:  Undefined array key "pembayaran_id" in C:\laragon\www\pembayaran-spp\app\model\Siswa.php on line 45
+[26-Jul-2023 22:27:47 Asia/Makassar] PHP Stack trace:
+[26-Jul-2023 22:27:47 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
+[26-Jul-2023 22:27:47 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:7
+[26-Jul-2023 22:27:47 Asia/Makassar] PHP   3. Student->store() C:\laragon\www\pembayaran-spp\app\core\App.php:52
+[26-Jul-2023 22:27:47 Asia/Makassar] PHP   4. Siswa->insert($data = ['nisn' => '1234567890', 'nis' => '12345', 'nama' => 'I Komang Wahyu Pranata', 'alamat' => 'sdf', 'telepon' => '081234567890', 'kelas_id' => '1', 'password' => '$2y$10$V44f6clLDLoH/9YHe4Gsd.BtblyyZCltOvugIpDi4/uKpLpd3kVXm', 'pengguna_id' => 2]) C:\laragon\www\pembayaran-spp\app\controller\Student.php:56
