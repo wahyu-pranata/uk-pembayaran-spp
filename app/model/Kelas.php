@@ -1,10 +1,5 @@
 <?php
 
-namespace Models;
-
-use Core\Database;
-use Core\Model;
-
 // Model untuk tabel kelas
 class Kelas extends Model
 {

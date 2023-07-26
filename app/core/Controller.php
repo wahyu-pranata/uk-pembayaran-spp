@@ -1,8 +1,5 @@
 <?php
 
-namespace Core;
-
-
 // "Base class" controller yang akan diextends oleh class turunan lainnya di directory controller
 class Controller
 {

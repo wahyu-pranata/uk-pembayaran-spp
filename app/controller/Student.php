@@ -1,10 +1,5 @@
 <?php
 
-namespace Controllers;
-
-use Core\Controller;
-use PDOException;
-
 class Student extends Controller
 {
     public function __construct()

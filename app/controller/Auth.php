@@ -1,9 +1,5 @@
 <?php
 
-namespace Controllers;
-
-use Core\Controller;
-
 class Auth extends Controller
 {
     public function index()

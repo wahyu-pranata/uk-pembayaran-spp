@@ -1,10 +1,5 @@
 <?php
 
-
-namespace Models;
-
-use Core\Database;
-
 class Pengguna
 {
     protected $db;

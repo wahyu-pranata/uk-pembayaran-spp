@@ -1,9 +1,5 @@
 <?php
 
-namespace Controllers;
-
-use Core\Controller;
-
 class Profile extends Controller
 {
     public function __construct()

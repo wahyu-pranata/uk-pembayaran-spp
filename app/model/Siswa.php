@@ -1,9 +1,5 @@
 <?php
 
-namespace Models;
-
-use Core\Database;
-
 class Siswa
 {
     protected $db;

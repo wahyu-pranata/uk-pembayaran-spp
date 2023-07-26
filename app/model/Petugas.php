@@ -1,12 +1,9 @@
 <?php
 
-namespace Models;
-
-use Core\Database;
-
 class Petugas
 {
     protected $db;
+    private $table = "petugas";
     public function __construct()
     {
         $this->db = new Database();
@@ -20,6 +17,15 @@ class Petugas
         ]);
         $this->db->execute();
         return $this->db->rowCount();
+    }
+    public function count()
+    {
+        try {
+            $this->db->query("SELECT COUNT(*) as jumlah_petugas FROM " . $this->table);
+            return $this->db->fetch();
+        } catch (Exception $e) {
+            return array("response" => "error", "message" => $e->getMessage());
+        }
     }
     public function update(array $data)
     {

@@ -1,7 +1,5 @@
 <?php
 
-namespace Core;
-
 // Class flasher digunakan untuk membuat flash message pada view
 class Flasher
 {

@@ -1,10 +1,5 @@
 <?php
 
-namespace Controllers;
-
-use Core\Controller;
-use DateTime;
-
 class Report extends Controller
 {
     public function __construct()

@@ -1,12 +1,9 @@
 <?php
 
-namespace Models;
-
-use Core\Database;
-
 class Transaksi
 {
     protected $db;
+    private $table = "transaksi";
     public function __construct()
     {
         $this->db = new Database();
@@ -16,6 +13,18 @@ class Transaksi
         $this->db->query("SELECT id, bulan_dibayar, tahun_dibayar, tanggal_dibayar FROM transaksi WHERE siswa_id = :id");
         $this->db->bind(':id', $id);
         return $this->db->fetchAll();
+    }
+    public function count()
+    {
+        try {
+            $this->db->query("SELECT COUNT(*) AS jumlah_transaksi FROM " . $this->table);
+            return $this->db->fetch();
+        } catch (Exception $e) {
+            return array("response" => "error", "message" => $e->getMessage());
+        }
+    }
+    function update(array $data, string $id)
+    {
     }
     public function insert(array $data)
     {

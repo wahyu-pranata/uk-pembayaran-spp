@@ -1,10 +1,5 @@
 <?php
 
-namespace Controllers;
-
-use Core\Controller;
-use PDOException;
-
 class Transaction extends Controller
 {
     public function index()

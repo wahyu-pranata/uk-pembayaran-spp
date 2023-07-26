@@ -224,3 +224,113 @@
 [25-Jul-2023 21:50:54 Asia/Makassar] PHP   2. require_once() C:\laragon\www\pembayaran-spp\public\index.php:3
 [25-Jul-2023 21:50:54 Asia/Makassar] PHP   3. require_once() C:\laragon\www\pembayaran-spp\app\init.php:19
 [25-Jul-2023 21:50:54 Asia/Makassar] PHP   4. define($constant_name = 'DB_PASS', $value = '') C:\laragon\www\pembayaran-spp\app\config\config.php:7
+[26-Jul-2023 20:41:53 Asia/Makassar] PHP Fatal error:  Uncaught Error: Class "Core\App" not found in C:\laragon\www\pembayaran-spp\public\index.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\pembayaran-spp\public\index.php on line 9
+[26-Jul-2023 20:42:03 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined method Transaksi::count() in C:\laragon\www\pembayaran-spp\app\controller\Home.php:16
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Home->index()
+#1 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\controller\Home.php on line 16
+[26-Jul-2023 20:43:07 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\laragon\www\pembayaran-spp\app\core\Model.php:36
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\controller\Home.php(16): Model->count()
+#1 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Home->index()
+#2 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\core\Model.php on line 36
+[26-Jul-2023 20:44:35 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\laragon\www\pembayaran-spp\app\core\Model.php:36
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\controller\Home.php(16): Model->count()
+#1 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Home->index()
+#2 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\core\Model.php on line 36
+[26-Jul-2023 20:45:49 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\laragon\www\pembayaran-spp\app\core\Model.php:36
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\controller\Home.php(16): Model->count()
+#1 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Home->index()
+#2 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\core\Model.php on line 36
+[26-Jul-2023 20:46:14 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\laragon\www\pembayaran-spp\app\core\Model.php:37
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\controller\Home.php(16): Model->count()
+#1 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Home->index()
+#2 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\core\Model.php on line 37
+[26-Jul-2023 20:46:57 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\laragon\www\pembayaran-spp\app\core\Model.php:37
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\controller\Home.php(16): Model->count()
+#1 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Home->index()
+#2 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#3 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\core\Model.php on line 37
+[26-Jul-2023 20:47:08 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined method Transaksi::count() in C:\laragon\www\pembayaran-spp\app\controller\Home.php:16
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Home->index()
+#1 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\controller\Home.php on line 16
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP Warning:  Undefined array key "jumlah_transaksi" in C:\laragon\www\pembayaran-spp\app\controller\Home.php on line 19
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP Stack trace:
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:7
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:52
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP Warning:  Undefined array key "jumlah_transaksi" in C:\laragon\www\pembayaran-spp\app\controller\Home.php on line 20
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP Stack trace:
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:7
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:52
+[26-Jul-2023 20:47:55 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined method Petugas::count() in C:\laragon\www\pembayaran-spp\app\controller\Home.php:21
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Home->index()
+#1 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\controller\Home.php on line 21
+[26-Jul-2023 20:48:37 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined method Petugas::count() in C:\laragon\www\pembayaran-spp\app\controller\Home.php:21
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Home->index()
+#1 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\controller\Home.php on line 21
+[26-Jul-2023 20:48:55 Asia/Makassar] PHP Warning:  Undefined array key "jumlah_petugas" in C:\laragon\www\pembayaran-spp\app\views\home\index.view.php on line 44
+[26-Jul-2023 20:48:55 Asia/Makassar] PHP Stack trace:
+[26-Jul-2023 20:48:55 Asia/Makassar] PHP   1. {main}() C:\laragon\www\pembayaran-spp\public\index.php:0
+[26-Jul-2023 20:48:55 Asia/Makassar] PHP   2. App->__construct() C:\laragon\www\pembayaran-spp\public\index.php:7
+[26-Jul-2023 20:48:55 Asia/Makassar] PHP   3. Home->index() C:\laragon\www\pembayaran-spp\app\core\App.php:52
+[26-Jul-2023 20:48:55 Asia/Makassar] PHP   4. Controller->view($views = [0 => 'template/dashboard-header', 1 => 'home/index', 2 => 'template/dashboard-footer'], $data = ['transaksi' => ['all' => 0, 'last_week' => 0], 'jml_petugas' => ['COUNT(*)' => 1], 'title' => 'Home']) C:\laragon\www\pembayaran-spp\app\controller\Home.php:24
+[26-Jul-2023 20:48:55 Asia/Makassar] PHP   5. require_once() C:\laragon\www\pembayaran-spp\app\core\Controller.php:15
+[26-Jul-2023 20:50:39 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined method Transaksi::get() in C:\laragon\www\pembayaran-spp\app\controller\Transaction.php:8
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Transaction->index()
+#1 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\controller\Transaction.php on line 8
+[26-Jul-2023 20:50:44 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined method Kelas::get() in C:\laragon\www\pembayaran-spp\app\controller\Student.php:17
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Student->index()
+#1 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\controller\Student.php on line 17
+[26-Jul-2023 20:50:46 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined method Kelas::get() in C:\laragon\www\pembayaran-spp\app\controller\Classes.php:14
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Classes->index()
+#1 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\controller\Classes.php on line 14
+[26-Jul-2023 20:50:50 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined method Pembayaran::get() in C:\laragon\www\pembayaran-spp\app\controller\Payment.php:13
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Payment->index()
+#1 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\controller\Payment.php on line 13
+[26-Jul-2023 20:50:53 Asia/Makassar] PHP Fatal error:  Uncaught Error: Call to undefined method Transaksi::raw() in C:\laragon\www\pembayaran-spp\app\controller\Report.php:14
+Stack trace:
+#0 C:\laragon\www\pembayaran-spp\app\core\App.php(52): Report->index()
+#1 C:\laragon\www\pembayaran-spp\public\index.php(7): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\pembayaran-spp\app\controller\Report.php on line 14

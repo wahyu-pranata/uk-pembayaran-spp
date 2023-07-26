@@ -1,7 +1,5 @@
 <?php
 
-namespace Core;
-
 // Class utama aplikasi
 class App
 {

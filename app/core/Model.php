@@ -1,10 +1,5 @@
 <?php
 
-namespace Core;
-
-use Core\Database;
-use Exception;
-
 // Class model yang menjadi dasar dari kelas model-model yang lain
 abstract class Model
 {

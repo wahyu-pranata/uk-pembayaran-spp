@@ -1,9 +1,5 @@
 <?php
 
-namespace Core;
-
-use PDO;
-
 class Database
 {
     // Nilai ini diambil dari file config/config.php
