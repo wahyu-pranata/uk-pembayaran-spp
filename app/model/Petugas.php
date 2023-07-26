@@ -1,24 +1,32 @@
 <?php
 
-class Petugas {
+namespace Models;
+
+use Core\Database;
+
+class Petugas
+{
     protected $db;
     public function __construct()
     {
         $this->db = new Database();
     }
-    public function get(string $filter = '') {
+    public function get(string $filter = '')
+    {
         $this->db->query("SELECT * FROM petugas $filter");
         return $this->db->fetchAll();
     }
-    public function getSingle(string $filter = '') {
+    public function getSingle(string $filter = '')
+    {
         $this->db->query("SELECT * FROM petugas $filter");
         return $this->db->fetch();
     }
-    public function getPengguna(string $filter = '', string $mode = 'all') {
+    public function getPengguna(string $filter = '', string $mode = 'all')
+    {
         $this->db->query("SELECT * FROM pengguna_petugas $filter");
-        if($mode == 'all') {
+        if ($mode == 'all') {
             return $this->db->fetchAll();
-        } elseif($mode == 'single') {
+        } elseif ($mode == 'single') {
             return $this->db->fetch();
         }
     }
@@ -27,7 +35,8 @@ class Petugas {
         $this->db->query("SELECT COUNT(id) AS 'jumlah_petugas' FROM pengguna_petugas $filter");
         return $this->db->fetch();
     }
-    public function insert(array $data) {
+    public function insert(array $data)
+    {
         $this->db->query("CALL insertPetugas(:nama, :pengguna_id)");
         $this->db->binds([
             ':nama' => $data['nama'],

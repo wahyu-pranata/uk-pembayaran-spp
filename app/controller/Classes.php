@@ -1,10 +1,15 @@
 <?php
 
+namespace Controllers;
+
+use Core\Controller;
+use PDOException;
+
 class Classes extends Controller
 {
     public function __construct()
     {
-        if($_SESSION['user']['role'] == 'siswa') {
+        if ($_SESSION['user']['role'] == 'siswa') {
             return redirect('/');
         }
     }
@@ -55,7 +60,7 @@ class Classes extends Controller
         try {
             $this->model('Kelas')->delete($id);
             return back(['success', 'Kelas terpilih berhasil dihapus']);
-        } catch(PDOException $e) {
+        } catch (PDOException $e) {
             return back(['danger', 'Error: ' . $e->getMessage()]);
         }
     }

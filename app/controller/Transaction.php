@@ -1,5 +1,10 @@
 <?php
 
+namespace Controllers;
+
+use Core\Controller;
+use PDOException;
+
 class Transaction extends Controller
 {
     public function index()
@@ -16,17 +21,17 @@ class Transaction extends Controller
     public function store()
     {
         $data = $_POST;
-        if(!isset($data['pembayaran_id'])) {
+        if (!isset($data['pembayaran_id'])) {
             $siswa = $this->model('siswa')->getSingle("WHERE id = '{$data['siswa_id']}'");
             $data['pembayaran_id'] = $siswa['pembayaran_id'];
         }
         $sameData = $this->model('Transaksi')->getSingle("WHERE siswa_id = '{$data['siswa_id']}' AND tahun_dibayar = '{$data['tahun_dibayar']}' AND bulan_dibayar = '{$data['bulan_dibayar']}'");
-        if(!$sameData) {
+        if (!$sameData) {
             $data['tanggal_dibayar'] = date("Y-m-d H:i:s", time());
             try {
                 $this->model('Transaksi')->insert($data);
                 return back(['success', 'Entri transaksi berhasil']);
-            } catch(PDOException $e) {
+            } catch (PDOException $e) {
                 return back(['danger', 'Error: ' . $e->getMessage()]);
             }
         }
@@ -37,15 +42,15 @@ class Transaction extends Controller
         try {
             $this->model('Transaksi')->delete($id);
             return back(['success', 'Transaksi berhasil dihapus']);
-        } catch(PDOException $e) {
+        } catch (PDOException $e) {
             return back(['danger', 'Error: ' . $e->getMessage()]);
         }
     }
     public function search()
     {
         $siswa = $this->model('Siswa')->getSingle("WHERE nis = '{$_POST['nis']}'");
-        if($siswa) {
-            return redirect('/student/detail/' . $siswa['id']); 
+        if ($siswa) {
+            return redirect('/student/detail/' . $siswa['id']);
         } else {
             return back(['danger', 'Siswa tidak ditemukan!']);
         }

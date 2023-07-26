@@ -1,5 +1,10 @@
 <?php
 
+namespace Controllers;
+
+use Core\Controller;
+use PDOException;
+
 class Payment extends Controller
 {
     public function __construct()

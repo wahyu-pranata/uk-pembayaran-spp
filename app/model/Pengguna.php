@@ -1,5 +1,10 @@
 <?php
 
+
+namespace Models;
+
+use Core\Database;
+
 class Pengguna
 {
     protected $db;
@@ -17,7 +22,7 @@ class Pengguna
         $this->db->query("SELECT * FROM pengguna $filter");
         return $this->db->fetch();
     }
-    public function insert(array $data) 
+    public function insert(array $data)
     {
         $this->db->query("CALL insertPengguna(:username, :password, :role)");
         $this->db->binds([
