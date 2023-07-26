@@ -9,3 +9,21 @@ Ini adalah repositori studi kasus "Pembayaran SPP" dalam sekolah. Studi kasus in
 ## Penting
 Ubah nama file `app/config/config.example` menjadi `app/src/config.php` dan isikan sesuai data kamu
 Jangan lupa untuk import sql ke database kamu
+
+## Struktur Folder
+root
+├───app
+│   ├───config
+│   ├───controller
+│   ├───core
+│   ├───helper
+│   ├───log
+│   ├───model
+│   └───views
+└───public
+    ├───css
+    ├───img
+    ├───js
+    ├───vendor
+    └───video
+    

@@ -45,7 +45,7 @@ class Student extends Controller
         }
         $data = $_POST;
         $sameStudent = $this->model('Siswa')->get("WHERE nis = '{$data['nis']}' OR nisn = '{$data['nisn']}'");
-        if($sameStudent) {
+        if ($sameStudent) {
             return back(['danger', 'NIS atau NISN sudah terdaftar!']);
         }
         $data['password'] = password_hash($data['nisn'], PASSWORD_DEFAULT);
@@ -69,7 +69,7 @@ class Student extends Controller
         try {
             $this->model('Siswa')->update($data);
             return back(['success', 'Detail siswa berhasil diperbarui']);
-        } catch(PDOException $e) {
+        } catch (PDOException $e) {
             return back(['danger', 'Error: ' . $e->getMessage()]);
         }
     }
@@ -81,7 +81,7 @@ class Student extends Controller
         try {
             $this->model('Pengguna')->delete($id);
             return back(['success', 'Siswa terpilih berhasil dihapus']);
-        } catch(PDOException $e) {
+        } catch (PDOException $e) {
             return back(['danger', 'Error: ' . $e->getMessage()]);
         }
     }

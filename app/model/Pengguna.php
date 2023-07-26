@@ -17,10 +17,10 @@ class Pengguna
         $this->db->query("SELECT * FROM pengguna $filter");
         return $this->db->fetch();
     }
-    public function insert(array $data) 
+    public function insert(array $data)
     {
         $this->db->query("CALL insertPengguna(:username, :password, :role)");
-        $this->db->binds([
+        $this->db->bindValues([
             ':username' => $data['username'],
             ':password' => $data['password'],
             ':role' => $data['role']

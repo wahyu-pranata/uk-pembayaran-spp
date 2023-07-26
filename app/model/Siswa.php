@@ -34,7 +34,7 @@ class Siswa
     public function insert(array $data)
     {
         $this->db->query('CALL insertSiswa(:nis, :nisn, :nama, :alamat, :telepon, :kelas_id, :pengguna_id, :pembayaran_id)');
-        $this->db->binds([
+        $this->db->bindValues([
             ':nis' => $data['nis'],
             ':nisn' => $data['nisn'],
             ':nama' => $data['nama'],
@@ -50,7 +50,7 @@ class Siswa
     public function update(array $data)
     {
         $this->db->query('CALL updateSiswa(:id, :pengguna_id, :nis, :nisn, :nama, :alamat, :telepon, :kelas_id, :pembayaran_id)');
-        $this->db->binds([
+        $this->db->bindValues([
             ':id' => $data['id'],
             ':pengguna_id' => $data['pengguna_id'],
             ':nis' => $data['nis'],

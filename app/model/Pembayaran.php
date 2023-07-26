@@ -20,7 +20,7 @@ class Pembayaran
     public function insert(array $data)
     {
         $this->db->query("INSERT INTO pembayaran(tahun_ajaran, nominal) VALUES(:tahun_ajaran, :nominal)");
-        $this->db->binds([
+        $this->db->bindValues([
             ':tahun_ajaran' => $data['tahun_ajaran'],
             ':nominal' => $data['nominal'],
         ]);

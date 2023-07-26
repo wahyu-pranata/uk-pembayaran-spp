@@ -1,5 +1,7 @@
 <?php
-class Report extends Controller {
+
+class Report extends Controller
+{
     public function __construct()
     {
         if ($_SESSION['user']['role'] != 'admin') {
@@ -11,13 +13,13 @@ class Report extends Controller {
         $data['title'] = 'Generate Laporan';
         $data['tahun'] = $this->model('Transaksi')->raw("SELECT DISTINCT tahun_dibayar AS 'tahun' FROM transaksi ORDER BY tahun_dibayar");
         $data['bulan'] = $this->model('Transaksi')->raw("SELECT DISTINCT bulan_dibayar AS 'bulan' FROM transaksi ORDER BY bulan_dibayar");
-        foreach($data['bulan'] as $i => $bulan) {
+        foreach ($data['bulan'] as $i => $bulan) {
             $dateObj = DateTime::createFromFormat("!m", $bulan['bulan']);
             $data['bulan'][$i]['nama_bulan'] = $dateObj->format("F");
         }
-        if(!empty($report)) {
+        if (!empty($report)) {
             $data['report'] = $report;
-        } 
+        }
         $this->view([
             'template/dashboard-header',
             'dashboard/report-index',
@@ -30,7 +32,7 @@ class Report extends Controller {
         $dateUntil = $date_until . ' 23:59:59';
         $report = $this->model('Transaksi')->get("WHERE tanggal_dibayar BETWEEN '{$dateFrom}' AND '{$dateUntil}'");
         dd($report);
-        if(empty($report)) {
+        if (empty($report)) {
             return redirect('/report', ['danger', 'Data tidak ada!']);
         }
         $data['title'] = 'Laporan';

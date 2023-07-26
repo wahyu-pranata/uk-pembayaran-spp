@@ -40,7 +40,7 @@ class Transaksi
     public function insert(array $data)
     {
         $this->db->query("CALL insertTransaksi(:tgl_bayar, :bulan_bayar, :tahun_bayar, :siswa_id, :petugas_id, :pembayaran_id)");
-        $this->db->binds([
+        $this->db->bindValues([
             ':tgl_bayar' => $data['tanggal_dibayar'],
             ':bulan_bayar' => $data['bulan_dibayar'],
             ':tahun_bayar' => $data['tahun_dibayar'],

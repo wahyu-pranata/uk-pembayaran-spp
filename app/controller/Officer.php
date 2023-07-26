@@ -36,8 +36,8 @@ class Officer extends Controller
     public function store()
     {
         $sameOfficer = $this->model('Petugas')->getPengguna("WHERE username = '{$_POST['username']}' OR nama = '{$_POST['nama']}' ");
-        if($sameOfficer) {
-            return back(['danger','Nama/username petugas sudah terdaftar!']);
+        if ($sameOfficer) {
+            return back(['danger', 'Nama/username petugas sudah terdaftar!']);
         }
         $data = [
             'username' => $_POST['username'],

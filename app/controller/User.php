@@ -10,9 +10,9 @@ class User extends Controller
     }
     public function index(string $mode = '')
     {
-        if($mode == 'siswa') {
+        if ($mode == 'siswa') {
             $data['user'] = $this->model('Siswa')->get();
-        } elseif($mode == 'petugas') {
+        } elseif ($mode == 'petugas') {
             $data['user'] = $this->model('Petugas')->getPengguna("WHERE role = 'petugas'", 'all');
         }
         $data['title'] = 'List User';
@@ -26,11 +26,12 @@ class User extends Controller
     {
         redirect('/user/' . $_POST['role']);
     }
-    public function delete(string $id) {
+    public function delete(string $id)
+    {
         try {
             $this->model('Pengguna')->delete($id);
             return back(['success', 'Pengguna terpilih berhasil dihapus']);
-        } catch(PDOException $e) {
+        } catch (PDOException $e) {
             return back(['danger', 'Error : ' . $e->getMessage()]);
         }
     }
