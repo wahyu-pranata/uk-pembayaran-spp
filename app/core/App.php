@@ -32,6 +32,7 @@ class App
         // Ubah nilai dari controller menjadi instansiasi dari class tersebut
         $this->controller = new $this->controller;
 
+
         // https://www.php.net/manual/en/function.method-exists
         if (isset($this->url[1]) && method_exists($this->controller, $this->url[1])) {
             // Ubah nilai dari variabel method menjadi nilai selanjutnya pada variabel url

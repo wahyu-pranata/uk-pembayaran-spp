@@ -2,6 +2,7 @@
 
 namespace Core;
 
+
 // "Base class" controller yang akan diextends oleh class turunan lainnya di directory controller
 class Controller
 {
@@ -25,6 +26,7 @@ class Controller
     public function model(string $model)
     {
         require_once '../app/model/' . $model . '.php';
+
         return new $model;
     }
 }

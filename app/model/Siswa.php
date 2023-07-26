@@ -11,34 +11,10 @@ class Siswa
     {
         $this->db = new Database();
     }
-    public function get(string $filter = '')
-    {
-        $this->db->query("SELECT * FROM pengguna_siswa $filter");
-        return $this->db->fetchAll();
-    }
-    public function getSingle(string $filter = '')
-    {
-        $this->db->query("SELECT * FROM pengguna_siswa $filter");
-        return $this->db->fetch();
-    }
-    public function getPengguna(string $filter = '', string $mode = 'all')
-    {
-        $this->db->query("SELECT * FROM pengguna_siswa $filter");
-        if ($mode == 'all') {
-            return $this->db->fetchAll();
-        } elseif ($mode == 'single') {
-            return $this->db->fetch();
-        }
-    }
-    public function count(string $filter)
-    {
-        $this->db->query("SELECT COUNT(id) AS 'jumlah_siswa' FROM pengguna_siswa $filter");
-        return $this->db->fetch();
-    }
     public function insert(array $data)
     {
         $this->db->query('CALL insertSiswa(:nis, :nisn, :nama, :alamat, :telepon, :kelas_id, :pengguna_id, :pembayaran_id)');
-        $this->db->binds([
+        $this->db->bindValues([
             ':nis' => $data['nis'],
             ':nisn' => $data['nisn'],
             ':nama' => $data['nama'],
@@ -54,7 +30,7 @@ class Siswa
     public function update(array $data)
     {
         $this->db->query('CALL updateSiswa(:id, :pengguna_id, :nis, :nisn, :nama, :alamat, :telepon, :kelas_id, :pembayaran_id)');
-        $this->db->binds([
+        $this->db->bindValues([
             ':id' => $data['id'],
             ':pengguna_id' => $data['pengguna_id'],
             ':nis' => $data['nis'],

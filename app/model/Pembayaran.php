@@ -11,20 +11,10 @@ class Pembayaran
     {
         $this->db = new Database();
     }
-    public function get(string $filter = '')
-    {
-        $this->db->query("SELECT * FROM pembayaran $filter");
-        return $this->db->fetchAll();
-    }
-    public function getSingle(string $filter = '')
-    {
-        $this->db->query("SELECT * FROM pembayaran $filter");
-        return $this->db->fetch();
-    }
     public function insert(array $data)
     {
         $this->db->query("INSERT INTO pembayaran(tahun_ajaran, nominal) VALUES(:tahun_ajaran, :nominal)");
-        $this->db->binds([
+        $this->db->bindValues([
             ':tahun_ajaran' => $data['tahun_ajaran'],
             ':nominal' => $data['nominal'],
         ]);

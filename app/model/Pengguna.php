@@ -12,20 +12,10 @@ class Pengguna
     {
         $this->db = new Database();
     }
-    public function get(string $filter = null)
-    {
-        $this->db->query("SELECT * FROM pengguna $filter");
-        return $this->db->fetchAll();
-    }
-    public function getSingle(string $filter = null)
-    {
-        $this->db->query("SELECT * FROM pengguna $filter");
-        return $this->db->fetch();
-    }
     public function insert(array $data)
     {
         $this->db->query("CALL insertPengguna(:username, :password, :role)");
-        $this->db->binds([
+        $this->db->bindValues([
             ':username' => $data['username'],
             ':password' => $data['password'],
             ':role' => $data['role']

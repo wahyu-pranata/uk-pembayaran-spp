@@ -6,7 +6,7 @@ use PDO;
 
 class Database
 {
-    // Nilai ini diambil dari folder config/config.php
+    // Nilai ini diambil dari file config/config.php
     private $db_user = DB_USER,
         $db_host = DB_HOST,
         $db_name = DB_NAME,
@@ -37,7 +37,6 @@ class Database
 
     /**
      * Mengikat nilai dengan query SQL untuk mencegah SQL injection
-     * https://www.php.net/manual/en/pdostatement.bindvalue
      */
     public function bind(string $param, mixed $value, $type = null)
     {
@@ -56,38 +55,51 @@ class Database
                     $type = PDO::PARAM_STR;
             }
         }
+        // https://www.php.net/manual/en/pdostatement.bindvalue
         $this->stmt->bindValue($param, $value, $type);
     }
 
-    // Menjalankan fungsi bind namun dengan banyak nilai, lihat lebih banyak pada class-class pada directory model
-    public function binds(array $params)
+    /**
+     * Menjalankan fungsi bind namun dengan banyak nilai, lihat lebih banyak pada class-class pada directory model
+     */
+    public function bindValues(array $params)
     {
         foreach ($params as $key => $value) {
             $this->bind($key, $value);
         }
     }
 
-    // Jalankan SQL query
+    /** 
+     * Jalankan SQL query
+     * 
+     */
     public function execute()
     {
         $this->stmt->execute();
     }
 
-    // Ambil satu baris pertama data yang dikembalikan oleh perintah SQL
+    /**
+     * Ambil satu baris pertama data yang dikembalikan oleh perintah SQL
+     */
     public function fetch(): array | bool
     {
         $this->execute();
         return $this->stmt->fetch();
     }
 
-    // Ambil semua baris data yang dikembalikan perintah SQL
+    /**
+     * Ambil semua baris data yang dikembalikan perintah SQL 
+     */
     public function fetchAll(): array
     {
         $this->execute();
         return $this->stmt->fetchAll();
     }
 
-    // Ambil banyaknya baris data yang dikembalikan perintah SQL
+    /**
+     * 
+     * Ambil banyaknya baris data yang dikembalikan perintah SQL
+     */
     public function rowCount(): int
     {
         return $this->stmt->rowCount();
