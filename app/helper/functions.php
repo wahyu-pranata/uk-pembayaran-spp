@@ -37,11 +37,12 @@ function back(array $flasher = [])
 // Ambil path request saat ini
 function getPath()
 {
-    return str_replace('/pembayaran-spp/public', '', $_SERVER['REQUEST_URI']);
+    return str_replace('/uk-pembayaran-spp/public', '', $_SERVER['REQUEST_URI']);
 }
 
 // Cek apakah path saat ini sesuai dengan path diberikan
-function checkPath(string $path): bool
+function checkPath(string $path)
 {
-    return str_contains(getPath(), $path) ? true : false;
+    //Kalau pakai php versi 8, uncomment kode di bawah
+    // return str_contains(getPath(), $path) ? true : false;
 }

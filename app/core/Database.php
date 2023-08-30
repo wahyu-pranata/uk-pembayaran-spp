@@ -34,7 +34,7 @@ class Database
     /**
      * Mengikat nilai dengan query SQL untuk mencegah SQL injection
      */
-    public function bind(string $param, mixed $value, $type = null)
+    public function bind(string $param, $value, $type = null)
     {
         if ($type == null) {
             switch (true) {
@@ -77,7 +77,7 @@ class Database
     /**
      * Ambil satu baris pertama data yang dikembalikan oleh perintah SQL
      */
-    public function fetch(): array | bool
+    public function fetch(): array
     {
         $this->execute();
         return $this->stmt->fetch();
